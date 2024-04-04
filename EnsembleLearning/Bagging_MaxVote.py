@@ -14,5 +14,5 @@ bagging_avg_vote_model = BaggingClassifier(base_model_bagging, n_estimators=10,r
 bagging_avg_vote_model.fit(X_train, y_train)
 
 y_pred = bagging_avg_vote_model.predict(X_test)
-print("Confusion Matrix:",confusion_matrix(y_test, y_pred))
-print(f'Classification Report\n {classification_report(y_test,y_pred)}')
+print("Confusion Matrix :\n",confusion_matrix(y_test, y_pred))
+print(f'Classification Report :\n {classification_report(y_test,y_pred)}')

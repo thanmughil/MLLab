@@ -18,7 +18,7 @@ predictions = np.asarray([estimator.predict(X_test) for estimator in bagging_wei
 weights = [1, 2, 1, 1, 2, 1, 1, 1, 2, 1]
 weighted_predictions = np.average(predictions, axis=0, weights=weights).round().astype(int)
 
-print("Confusion Matrix:")
+print("Confusion Matrix :")
 print(confusion_matrix(y_test, weighted_predictions))
-print("Classification Report:")
+print("Classification Report :")
 print(classification_report(y_test, weighted_predictions))
