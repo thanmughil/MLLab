@@ -28,5 +28,5 @@ def predict(X, prob_df):
     return "Yes" if P_yes >= P_no else "No"
 
 prob_df = find_probs('Play Golf')
-print(prob_df)
-print(predict(['Rainy', 'Cool', 'Normal', 'False'], prob_df))
+print("Input : ['Rainy', 'Cool', 'Normal', 'False']\n")
+print("Output :",predict(['Rainy', 'Cool', 'Normal', 'False'],prob_df))

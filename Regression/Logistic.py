@@ -12,5 +12,5 @@ model = LogisticRegression()
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
-print("Confusion Matrix:",confusion_matrix(y_test, y_pred))
-print(f'Classification Report\n {classification_report(y_test,y_pred)}')
+print("Confusion Matrix :\n",confusion_matrix(y_test, y_pred))
+print(f'Classification Report :\n{classification_report(y_test,y_pred)}')

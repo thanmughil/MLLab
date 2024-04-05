@@ -1,11 +1,11 @@
 ,HouseSize,NumPeople,Season,Category
-0,194,2,winter,Tier 1
-1,143,1,winter,Tier 2
-2,293,3,monsoon,Tier 1
-3,140,2,monsoon,Tier 2
-4,97,3,monsoon,Tier 2
-5,142,6,summer,Tier 2
-6,125,8,summer,Tier 2
-7,224,2,summer,Tier 1
-8,185,5,monsoon,Tier 1
-9,223,4,monsoon,Tier 1
+0,132,5,winter,Tier 2
+1,95,1,monsoon,Tier 2
+2,183,3,summer,Tier 2
+3,236,4,summer,Tier 1
+4,94,8,summer,Tier 2
+5,137,6,summer,Tier 2
+6,261,2,monsoon,Tier 1
+7,62,2,summer,Tier 3
+8,195,7,summer,Tier 1
+9,247,3,winter,Tier 1
